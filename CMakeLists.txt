@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( BBFNavidad )
+find_package( OpenCV REQUIRED )
+add_executable( BBFNavidad main.cpp )
+target_link_libraries( BBFNavidad ${OpenCV_LIBS} )
